@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+    body{
+      width:100%;
+      height:100%;
+    }
+    #lbar{
+      display:inline-block;
+      background-color: #3c839e;
+      position: absolute;
+      width: 15%;
+      height: 90%;
+      bottom: 0px;
+      left: 0px;
+    }
+    #tbar{
+      display:inline-block;
+      background-color:#284b63;
+      position: absolute;
+      width: 100%;
+      height: 10%;
+      top: 0px;
+      left: 0px;
+
+    }
+
+    #chatbox{
+      display:inline-block;
+      background-color:#353535;
+      position: absolute;
+      width: 85%;
+      height: 90%;
+      bottom: 0px;
+      right: 0px;
+
+    }
+
+    #options{
+      display:inline-block;
+      position: absolute;
+      width: 100%;
+      height: 73%;
+      bottom: 15%;
+      left: 5%;
+
+    }
+
+    #Serverandlang{
+      display:inline-block;
+      background-color: #305873;
+      position: absolute;
+      width: 100%;
+      height: 12%;
+      top: 0%;
+
+    }
+
+    #settings{
+      display:inline-block;
+      background-color: #305873;
+      position: absolute;
+      width: 100%;
+      height: 15%;
+      bottom: 0%;
+
+    }
+
+    #textbox{
+      display:inline-block;
+      background-color: #eeeeee;
+      position: absolute;
+      width: 85%;
+      height: 5%;
+      bottom: 5%;
+      left: 5%;
+
+    }
+
+    #sendbutton{
+      display:inline-block;
+      background-color: #eeeeee;
+      position: absolute;
+      width: 5%;
+      height: 6%;
+      bottom: 5%;
+      left: 90%;
+    }
+
+    #serverlist{
+      display:inline-block;
+      background-color: #366382;
+      position: absolute;
+      width: 85%;
+      height: 100%;
+      right: 0%;
+      overflow-x: scroll;
+    }
+
+    #chatlog{
+      background-color: #484848;
+      display:inline-block;
+      position:absolute;
+      height: 85%;
+      width: 100%;
+      top: 0%;
+      overflow-y: scroll;
+    }
+
+    #logo{
+      display:inline-block;
+      position:absolute;
+      left: 2%;
+      top: 5%;
+      height:90%;
+      width:10%;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="lbar">
+      <div id="Serverandlang">
+      <center><p>Server Name</p></center>
+      <center><p>Current language</p></center>
+    </div>
+      <div id="options">
+        <!--will be selectable-->
+        <p><h1>Post<b><i> Discussion</i></b></h1></p>
+        <h3>
+        <p>chat name</p>
+        <p>chat name</p>
+        <p>chat name</p>
+        <p>chat name</p>
+        <p>chat name</p>
+      </h3>
+      </div>
+      <div id="settings"></div>
+    </div>
+    <div id="tbar">
+      <div id="serverlist"></div>
+      <img src="C:\Users\Phoenix-Ptah\Desktop\Game\Jaedon Game\polyglot\polyglot2.png" id="logo">
+    </div>
+    <div id="chatbox">
+      <div id="chatlog"></div>
+      <input id="textbox" placeholder="write something">
+      <button id="sendbutton">Send</button>
+    </div>
+    <div id="postbox"></div>
+  </body>
+</html>
